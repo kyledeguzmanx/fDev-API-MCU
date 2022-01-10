@@ -1,9 +1,16 @@
 const GSheetReader = require("g-sheets-api");
 const config = require("./config")
+
 GSheetReader(
-    options,
+    {
+        apiKey : config.options.apiKey,
+        sheetId: '19rP-HPw_8DLlp9c4HHM7DBCc95hR_Top-8cs2AmSb3g',
+        sheetNumber: 1,
+        returnAllResults: false
+    },
     (results) => {
         //results instructions
+        console.log(results);
     },
     (error) => {
         //error instructions
