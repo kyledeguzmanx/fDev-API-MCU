@@ -1,0 +1,1 @@
+const GSheetReader = require("g-sheets-api");
