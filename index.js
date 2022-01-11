@@ -1,6 +1,7 @@
 const GSheetReader = require("g-sheets-api");
 const config = require("./config")
 
+
 GSheetReader(
     {
         apiKey : config.options.apiKey,
@@ -10,9 +11,17 @@ GSheetReader(
     },
     (results) => {
         //results instructions
-        console.log(results);
+        //console.log(results);
     },
     (error) => {
         //error instructions
     }
 );
+
+const PORT = 8000;
+const axios = require("axios");
+const cheerio = require("cheerio");
+
+const app = require("express")();
+
+app.listen(PORT, () => console.log(`server running on ${PORT}`));
