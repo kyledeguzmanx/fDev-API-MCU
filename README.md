@@ -47,10 +47,10 @@ Also, if you're viewing the API Documentation page, in the right-most column, th
 
 ## SAMPLE CODE
 
-fetch(https://marvel-quote-api.p.rapidapi.com/?rapidapi-key=123456789)
-  .then(response => 
-    return response.json();
-   )
-   .then( response => {
-    console.log(response.Quote);
+fetch(https://marvel-quote-api.p.rapidapi.com/?rapidapi-key=123456789)  
+  .then(response =>   
+    return response.json();  
+   )  
+   .then( response => {  
+    console.log(response.Quote);  
    })
