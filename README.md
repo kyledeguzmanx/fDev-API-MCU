@@ -1,13 +1,48 @@
 # MCU QUOTE API
 
+## INTRODUCTION
+For this project, I created an API that generates quotes from movies from the Marvel Cinematic Universe. The quotes are pulled from the start of the MCU -- with the very first IRON MAN-- all the way to the Disney Plus Loki Series. Movies and films and released after Loki are excluded. I hand picked quotes that spoke to the core of some characters as well as some quotes pulled from very significant moments throughout the different films that Marvel fans should know.
+
+
 ## TECHNOLOGY USED
 - [Javascript Exports](https://stackoverflow.com/questions/3922994/share-variables-between-files-in-node-js)  
 - Google Cloud Platform   
-- Google Sheets  
+- Google Sheets: [Quotes here](https://docs.google.com/spreadsheets/d/19rP-HPw_8DLlp9c4HHM7DBCc95hR_Top-8cs2AmSb3g/edit#gid=0)   
 - Google Sheets API  
-- g-sheets-api (unofficial NodeJS module)  
+- ExpressJS module
+- g-sheets-api (NodeJS module)  
 - NodeJS  
+- RapidAPI
+- Replit  
+- UptimeRobot  
+
+## HOW TO USE
+
+The API is currently available in the [RAPID API Marketplace](https://rapidapi.com/kyledeguzmanx/api/marvel-quote-api).  
+
+Upon click, you should see the following screen:  
+
+![RapidAPI](https://github.com/kyledeguzmanx/fDev-API-MCU/blob/master/images/RapidAPI.png)
+
+In order to use the API, you must sign in to the Rapid API platform. 
+
+
+After signing in, return to the API page. At the top right of the middle coulumn, you will need to subscribe to this API to get your own unique API Key. The free subscription offers unlimited uses. (Note: If you're publishing the source code of your project, make sure you always hide your API Keys)   
+
+Once you get your API Key, you can now use the API.   
+
+The path to fetch the API is:  
+
+https://marvel-quote-api.p.rapidapi.com/?rapidapi-key=
+
+and add your unique API key at the end.  
+
+Also, if you're viewing the API Documentation page, in the right-most column, there are code snippets (in various languages and techniques) that show you how to fetch the API. For example, with NodeJS, you can use the axios module or the node-fetch module. Or if you're using Javascript, you can use XMLHttpRequest, Fetch, or jQuery.   
+
 
 ## SCREENSHOTS
-![]
-Link to Google Sheets: [here](https://docs.google.com/spreadsheets/d/19rP-HPw_8DLlp9c4HHM7DBCc95hR_Top-8cs2AmSb3g/edit#gid=0)
+![Screen1](https://github.com/kyledeguzmanx/fDev-API-MCU/blob/master/images/result1.png)
+![](https://github.com/kyledeguzmanx/fDev-API-MCU/blob/master/images/result3.png)
+![](https://github.com/kyledeguzmanx/fDev-API-MCU/blob/master/images/quote2.png)
+
+
