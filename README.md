@@ -1,8 +1,10 @@
 # MCU QUOTE API
 
 ## INTRODUCTION
-For this project, I created an API that generates quotes from movies from the Marvel Cinematic Universe. The quotes are pulled from the start of the MCU -- with the very first IRON MAN-- all the way to the Disney Plus Loki Series. Movies and films and released after Loki are excluded. I hand picked quotes that spoke to the core of some characters as well as some quotes pulled from very significant moments throughout the different films that Marvel fans should know.
+For this project, I created an API that generates quotes from movies from the Marvel Cinematic Universe. The quotes are pulled from the start of the MCU -- with the very first IRON MAN-- all the way to the Disney Plus Loki Series. Movies and series released after Loki are excluded. I hand picked quotes that spoke to the core of some characters as well as some quotes pulled from very significant moments throughout the different films that Marvel fans should know.
 
+## BUILD PROCESS
+All the quotes and related information were stored in a Google Sheets spreadsheet. This spreadsheet was accessed using the g-sheets-api NodeJs module. That module fetches information from the spreadsheet and stores them as an array an objects. Once that has been processed, I used the Express NodeJs module to listen for requests. If the URL is visited, a JSON file will be given to the user.
 
 ## TECHNOLOGY USED
 - [Javascript Exports](https://stackoverflow.com/questions/3922994/share-variables-between-files-in-node-js)  
