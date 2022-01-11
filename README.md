@@ -7,3 +7,7 @@
 - Google Sheets API  
 - g-sheets-api (unofficial NodeJS module)  
 - NodeJS  
+
+## SCREENSHOTS
+![]
+Link to Google Sheets: [here](https://docs.google.com/spreadsheets/d/19rP-HPw_8DLlp9c4HHM7DBCc95hR_Top-8cs2AmSb3g/edit#gid=0)
